@@ -1,8 +1,8 @@
 $(function () {
-  // Function to display the current date in the header
-  function displayCurrentDate() {
-    const currentDate = dayjs().format("dddd, MMMM D");
-    $("#currentDay").text(currentDate);
+  // Function to display the current date and time in the header
+  function displayCurrentDateTime() {
+    const currentDateTime = dayjs().format("dddd, MMMM D, h:mm:ss A");
+    $("#currentDay").text(currentDateTime);
   }
 
   // Function to apply past, present, or future classes to time blocks
@@ -37,10 +37,13 @@ $(function () {
     const timeBlockId = $(this).closest(".time-block").attr("id");
     const userInput = $(this).siblings(".description").val();
     localStorage.setItem(timeBlockId, userInput);
+    
+    // Alert to notify that the event has been saved
+    alert("Event has been saved in local storage!");
   });
 
   // Initialize the application
-  displayCurrentDate();
+  displayCurrentDateTime();
   updateTimeBlocks();
   loadSavedEvents();
 

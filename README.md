@@ -96,8 +96,6 @@ Screenshots:
 
 <img width="1728" alt="Screenshot 2023-09-05 at 10 17 09 AM" src="https://github.com/tsiau/work-scheduler/assets/135296454/04392125-e200-447d-996c-aca56fed4257">
 
-<img width="1728" alt="Screenshot 2023-09-05 at 10 17 12 AM" src="https://github.com/tsiau/work-scheduler/assets/135296454/bef95379-9705-4080-b010-06f663eaf5fa">
-
 <img width="1728" alt="Screenshot 2023-09-05 at 10 17 29 AM" src="https://github.com/tsiau/work-scheduler/assets/135296454/dc4cc43a-6389-4ecc-a0b0-273fe9e4452d">
 
 <img width="1728" alt="Screenshot 2023-09-05 at 10 17 51 AM" src="https://github.com/tsiau/work-scheduler/assets/135296454/a8b1485f-b594-49a3-82c1-eacc1e78ad66">
